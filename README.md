@@ -1,5 +1,6 @@
 # HomeTask
 
+
 ## Setup Steps
 Follow these steps to set up and run the project:
 
@@ -25,6 +26,7 @@ Follow these steps to set up and run the project:
    * Set a geofence by tapping a location on the map.
    * Move inside/outside the geofence area to trigger a notification.
    
+
 
 ## Approach
 
@@ -53,6 +55,7 @@ This app follows the MVVM (Model-View-ViewModel) structure to make sure separati
 6.Unit Testing:
     Includes unit exams for Core Data endurance and ViewModel common sense to verify API responses and facts control.
     
+
     
 
 ## Third-Party Libraries
@@ -60,9 +63,14 @@ This app follows the MVVM (Model-View-ViewModel) structure to make sure separati
 This venture does not rely on any 0.33-celebration libraries. It completely uses Apple’s local frameworks, which include:
 
 MapKit: To show maps and geofences.
+
 CoreLocation: For managing geofencing and area monitoring.
+
 CoreData: For storing geofences constantly.
+
 UserNotifications: To cause geofence access/exit notifications.
+
+
 
 ## Trade-offs and Assumptions
 
