@@ -29,6 +29,7 @@ Follow these steps to set up and run the project:
 ## Approach
 
 This app follows the MVVM (Model-View-ViewModel) structure to make sure separation of concerns, making the code more modular and testable.
+
 1.Fetching Locations (API Integration):
     The app uses URLSession to fetch factors of hobby (POIs) from the Overpass API.
     The reaction is parsed into a Location version and saved in the LocationViewModel.
@@ -57,6 +58,7 @@ This app follows the MVVM (Model-View-ViewModel) structure to make sure separati
 ## Third-Party Libraries
 
 This venture does not rely on any 0.33-celebration libraries. It completely uses Apple’s local frameworks, which include:
+
 MapKit: To show maps and geofences.
 CoreLocation: For managing geofencing and area monitoring.
 CoreData: For storing geofences constantly.
